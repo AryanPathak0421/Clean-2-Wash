@@ -171,4 +171,5 @@ server.listen(PORT, () => {
     initCronService();
 });
 
-module.exports = { app, server };
+module.exports = app;
+module.exports.server = server;
